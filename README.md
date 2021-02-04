@@ -19,7 +19,7 @@ If you find generalized likelihood ratio method useful in your research, please 
     
       @article{Li2021noiseoptimize,
         Author = {Li Xiao, Zeliang Zhang, Yijie Peng},
-        Title = {Training Artificial Neural Networks by Generalized Likelihood Ratio Method: Exploring Brain-like Learning to Improve Robustness},
+        Title = {Noise Optimization For Aritificial Neural Network},
         Journal = {Submit to ICML},
         Year = {2021}
     } 
