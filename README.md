@@ -5,7 +5,24 @@ Adding noises to artificial neural network(ANN) has been shown to be able to  im
 In this work, we propose a new technique to compute the pathwise stochastic gradient estimate with respect to the standard deviation of the Gaussian noise added to each neuron of the ANN.   
 By our  proposed technique, the gradient estimate with respect to noise levels is a byproduct of the backpropagation algorithm for estimating gradient with respect to synaptic weights in ANN.  
 Thus, the noise level for each neuron can be optimized simultaneously in the processing of training the synaptic weights at nearly no extra computational cost.   
-In numerical experiments, our proposed method can achieve significant performance improvement on robustness of several popular ANN structures under both black box and white box attacks tested in various computer vision datasets.    
+In numerical experiments, our proposed method can achieve significant performance improvement on robustness of several popular ANN structures under both black box and white box attacks tested in various computer vision datasets.   
+## Citation
+
+If you find generalized likelihood ratio method useful in your research, please consider citing:
+
+    @article{peng2020stochastic,
+        Author = {Yijie Peng, Li Xiao, Bernd Heidergott,Jeff L. Hong, Henry Lam},
+        Title = {Stochastic Gradient Estimation for Artificial Neural Networks},
+        Journal = {Preprint with DOI: 10.2139/ssrn.3318847},
+        Year = {2019}
+    }
+    
+      @article{Li2021noiseoptimize,
+        Author = {Li Xiao, Zeliang Zhang, Yijie Peng},
+        Title = {Training Artificial Neural Networks by Generalized Likelihood Ratio Method: Exploring Brain-like Learning to Improve Robustness},
+        Journal = {Submit to ICML},
+        Year = {2021}
+    } 
 ## Running Environment  
 python 3.7   
 pytorch 1.6.0  
